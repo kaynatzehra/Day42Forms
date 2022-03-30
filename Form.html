@@ -3,7 +3,7 @@
 <head>
     <style>
         .image{
-            background-image: url('img.jpg');
+            background-image: url('img1.jpg');
             background-repeat: no-repeat;
             background-size: cover;
 
@@ -88,7 +88,7 @@
         password.addEventListener('input',function(){
             let passwordRegex = RegExp('^[a-zA-Z0-9]{7,}$');
             if(passwordRegex.test(password.value))
-                passwordError.textContent="";
+                passwordError.textContent=" ";
             else
                 passwordError.textContent="Password is incorect";
         }
